@@ -1,0 +1,68 @@
+.bg-red {
+  background-color: red;
+}
+
+.bg-blue {
+  background-color: blue;
+}
+
+.bg-green {
+  background-color: green;
+}
+
+.bg-yellow {
+  background-color: yellow;
+}
+
+.bg-purple {
+  background-color: purple;
+}
+
+.bg-orange {
+  background-color: orange;
+}
+
+.container {
+  display: flex;
+  border: 1px solid black;
+  margin-bottom: 1rem;
+  width: 600px;
+  height: 600px;
+}
+
+/* Task 1 */
+
+.task1 {
+  flex-wrap: wrap;
+}
+
+.task1 .child {
+  height: 200px;
+}
+
+.task1 .bigger {
+  width: 400px;
+}
+
+.task1 .smaller {
+  width: 200px;
+}
+
+/* Task 2 */
+
+.task2 {
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+
+.task2 .child {
+  width: 200px;
+}
+
+.task2 .smaller {
+  height: 200px;
+}
+
+.task2 .bigger {
+  height: 400px;
+}
