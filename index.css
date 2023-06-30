@@ -37,7 +37,9 @@ body {
 .bg-pink {
   background-color: pink;
 }
-.bg-tomato{background-color: tomato;}
+.bg-tomato {
+  background-color: tomato;
+}
 
 .container {
   display: flex;
@@ -120,13 +122,12 @@ body {
 }
 .task4 .smaller {
   flex-basis: 150px;
-  
 }
-.task4 .bigger {
+/* .task4 .bigger {
   flex-basis: 300px;
  
-}
-.task4 .ch1{
+} */
+.task4 .ch1 {
   display: flex;
   flex-direction: row;
   flex-basis: 150px;
@@ -134,11 +135,10 @@ body {
   flex-wrap: wrap;
 }
 .task4 > .ch1 > div:nth-child(3),
-.task4 > .ch1 > div:nth-child(1){
+.task4 > .ch1 > div:nth-child(1) {
   flex-grow: 2;
-  
 }
-.task4 .ch2{
+.task4 .ch2 {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
@@ -149,31 +149,36 @@ body {
   max-width: 150px;
   height: 150px;
 }
-/* .task4 > .ch2 > .bg-orange{
- flex-basis: 300px;
- width: 300px;
- /* height: 300px; */
- /* flex-grow: 2; */
-} */
-.task4 > .ch3{
+
+.task4 > .ch02 .ch3 {
   display: flex;
   flex-wrap: wrap;
   flex-direction: column;
   width: 450px;
   height: 300px;
+  /* border: 2px solid rgb(0, 0, 0); */
 }
-.task4 .ch3 bg-orange{
+.task4 .ch02 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 300px;
+}
+.task4 .ch02 .ch3 div:first-child {
   width: 300px;
   height: 300px;
 }
-.task4 .ch4{
+.task4 .ch02 .ch3 div:not(:first-child) {
+  width: 150px;
+  height: 150px;
+}
+.task4 .ch4 {
   height: 150px;
   width: 600px;
   display: flex;
   flex-wrap: wrap;
 }
 .task4 > .ch4 > div:nth-child(3),
-.task4 > .ch4 > div:nth-child(1){
+.task4 > .ch4 > div:nth-child(1) {
   flex-grow: 2;
-  
 }
