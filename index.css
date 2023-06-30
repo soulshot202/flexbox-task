@@ -1,3 +1,7 @@
+body {
+  display: flex;
+  justify-content: space-around;
+}
 .bg-red {
   background-color: red;
 }
@@ -21,6 +25,19 @@
 .bg-orange {
   background-color: orange;
 }
+.bg-black {
+  background-color: black;
+}
+.bg-sky {
+  background-color: skyblue;
+}
+.bg-brown {
+  background-color: brown;
+}
+.bg-pink {
+  background-color: pink;
+}
+.bg-tomato{background-color: tomato;}
 
 .container {
   display: flex;
@@ -65,4 +82,98 @@
 
 .task2 .bigger {
   height: 400px;
+}
+/* task3 */
+.task3 .bigger {
+  width: 400px;
+  height: 400px;
+}
+.task3 .smaller {
+  height: 200px;
+  width: 200px;
+}
+.task3 {
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.task3 .child2 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  /* align-items: flex-end; */
+  max-height: 400px;
+}
+.task3 .child3 {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  /* align-items: flex-start; */
+}
+/* Task4  */
+.task4 {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  height: 600px;
+  width: 600px;
+}
+.task4 .smaller {
+  flex-basis: 150px;
+  
+}
+.task4 .bigger {
+  flex-basis: 300px;
+ 
+}
+.task4 .ch1{
+  display: flex;
+  flex-direction: row;
+  flex-basis: 150px;
+  width: 600px;
+  flex-wrap: wrap;
+}
+.task4 > .ch1 > div:nth-child(3),
+.task4 > .ch1 > div:nth-child(1){
+  flex-grow: 2;
+  
+}
+.task4 .ch2{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  width: 150px;
+  height: 300px;
+}
+.task4 > .ch2 > .child {
+  max-width: 150px;
+  height: 150px;
+}
+/* .task4 > .ch2 > .bg-orange{
+ flex-basis: 300px;
+ width: 300px;
+ /* height: 300px; */
+ /* flex-grow: 2; */
+} */
+.task4 > .ch3{
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 450px;
+  height: 300px;
+}
+.task4 .ch3 bg-orange{
+  width: 300px;
+  height: 300px;
+}
+.task4 .ch4{
+  height: 150px;
+  width: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.task4 > .ch4 > div:nth-child(3),
+.task4 > .ch4 > div:nth-child(1){
+  flex-grow: 2;
+  
 }
