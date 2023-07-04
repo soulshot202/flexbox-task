@@ -1,6 +1,8 @@
 body {
   display: flex;
   justify-content: space-around;
+  max-width: 3200px;
+  flex-wrap: wrap;
 }
 .bg-red {
   background-color: red;
@@ -180,5 +182,96 @@ body {
 }
 .task4 > .ch4 > div:nth-child(3),
 .task4 > .ch4 > div:nth-child(1) {
+  flex-grow: 2;
+}
+
+/* Task5 */
+.task5 .bigger {
+  height: 200px;
+  flex-basis: 200px;
+}
+.task5 .smaller {
+  height: 100px;
+  width: 100px;
+}
+.task5 {
+  display: flex;
+  max-width: 600px;
+  max-height: 600px;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.task5 .ch5-1,
+.task5 .ch5-4 {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  flex-basis: 200px;
+}
+.task5 .ch5-4 div:first-child {
+  flex-grow: 2;
+}
+.task5 .ch5-1 div:last-child {
+  flex-grow: 2;
+}
+.task5 .ch5-2 {
+  width: 400px;
+  height: 200px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.task5 .ch5-2 div:first-child {
+  width: 200px;
+}
+.task5 .ch5-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  width: 200px;
+  height: 200px;
+}
+/* Task6 */
+.task6 {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 600px;
+  max-height: 600px;
+  flex-direction: column;
+}
+/* .task6 .child{
+  flex-basis: 200px;
+} */
+.ch6-1 {
+  width: 600px;
+  height: 300px;
+  display: flex;
+}
+.task6 .bigger {
+  width: 600px;
+  height: 300px;
+}
+.task6 .smaller {
+  height: 150px;
+  flex-basis: 100px;
+}
+.task6 .mid {
+  width: 200px;
+  height: 300px;
+}
+.ch6-1-1 {
+  width: 200px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.ch6-3 {
+  width: 400px;
+  height: 300px;
+  display: flex;
+}
+.task6 .ch6-1-1 div:last-child {
   flex-grow: 2;
 }
