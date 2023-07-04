@@ -42,6 +42,9 @@ body {
 .bg-tomato {
   background-color: tomato;
 }
+.bg-grey {
+  background-color: lightgray;
+}
 
 .container {
   display: flex;
@@ -274,4 +277,96 @@ body {
 }
 .task6 .ch6-1-1 div:last-child {
   flex-grow: 2;
+}
+
+/* Task7 */
+.task7 .ch7-1,
+.task7 .ch7-2 {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.task7 .bigger {
+  width: 450px;
+  height: 300px;
+}
+.task7 .smaller {
+  width: 150px;
+  height: 150px;
+}
+.task7 {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+/* Task8 */
+.task8 .ch8-1 {
+  width: 600px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.task8 .bigger {
+  width: 600px;
+  height: 300px;
+}
+.task8 .smaller {
+  width: 200px;
+  height: 150px;
+  display: flex;
+}
+.task8 .mid {
+  width: 200px;
+  height: 300px;
+}
+.task8 {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+/* Task9 */
+.task9 {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.task9 .smaller {
+  flex-basis: 120px;
+  height: 100px;
+  width: 120px;
+}
+.task9 .mid {
+  width: 200px;
+  height: 200px;
+  flex-basis: 200px;
+}
+.task9 .bigger {
+  width: 400px;
+  height: 300px;
+}
+.task9 .ch9-1 {
+  width: 240px;
+  height: 300px;
+  display: flex;
+  flex-wrap: wrap;
+}
+.task9 .ch9-2 {
+  width: 400px;
+  height: 400px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+}
+.task9 .ch9-3 {
+  width: 600px;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
