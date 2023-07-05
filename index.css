@@ -335,6 +335,7 @@ body {
   height: 600px;
   display: flex;
   flex-wrap: wrap;
+  flex-direction: column;
 }
 .task9 .smaller {
   flex-basis: 120px;
@@ -342,17 +343,17 @@ body {
   width: 120px;
 }
 .task9 .mid {
-  width: 200px;
+  width: 240px;
   height: 200px;
-  flex-basis: 200px;
+  flex-basis: 240px;
 }
 .task9 .bigger {
-  width: 400px;
+  width: 360px;
   height: 300px;
 }
 .task9 .ch9-1 {
   width: 240px;
-  height: 300px;
+  height: 400px;
   display: flex;
   flex-wrap: wrap;
 }
@@ -364,9 +365,142 @@ body {
   flex-direction: row;
 }
 .task9 .ch9-3 {
-  width: 600px;
+  width: 360px;
   height: 200px;
   display: flex;
   flex-direction: column;
   flex-wrap: wrap;
 }
+.task9 .ch9-1 div:first-child {
+  height: 300px;
+}
+.task9 .ch9-3 div:nth-last-child(1),
+.task9 .ch9-3 div:nth-last-child(2) {
+  /* height: 100px; */
+  flex-basis: 100px;
+}
+
+/* Task 10 */
+.task10 .bigger {
+  width: 300px;
+  height: 200px;
+}
+.task10 .mid {
+  width: 200px;
+  height: 200px;
+}
+.task10 .smaller {
+  width: 100px;
+  height: 100px;
+}
+.task10 .ch10-1,
+.task10 .ch10-2,
+.task10 .ch10-3 {
+  width: 600px;
+  height: 200px;
+}
+.task10 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 600px;
+  height: 600px;
+}
+.task10 .ch10-1,
+.task10 .ch10-3 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.task10 .ch10-2 {
+  display: flex;
+  flex-wrap: wrap-reverse;
+  flex-direction: column;
+}
+
+/* Task 11 */
+.task11 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task11 .bigger {
+  width: 600px;
+  height: 480px;
+}
+.task11 .smaller {
+  width: 120px;
+  height: 120px;
+}
+/* Task 12 */
+.task12 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task12 .mid {
+  width: 20%;
+}
+
+/* Task 13 */
+.task13 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task13 .mid {
+  /* height: 20%; */
+  width: 100%;
+}
+/* Task 14 */
+.task14 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task14 .ch14 {
+  width: 50%;
+  height: 50%;
+  display: flex;
+}
+.task14 .bigger {
+  width: 100%;
+}
+.task14 .mid {
+  width: 50%;
+  height: 100%;
+}
+.task14 .smaller {
+  width: 50%;
+  height: 33.33%;
+}
+.ch14:nth-child(2),
+.ch14:nth-child(3) {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.ch14:first-child {
+  display: flex;
+  flex-wrap: wrap;
+}
+.ch14:first-child .child:last-child {
+  width: 100%;
+}
+/* Task 15 */
+.task15 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task15 .ch15 {
+  height: 25%;
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.task15 .mid {
+  height: 100%;
+  flex-basis: 150px;
+  width: 150px;
+}
+.task15 .ch15:first-child > div,
+.task15 .ch15:nth-child(3) > div {
+  flex-grow: 2;
+}
+
+/* Task 16 */
