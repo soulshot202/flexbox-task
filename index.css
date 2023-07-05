@@ -504,3 +504,105 @@ body {
 }
 
 /* Task 16 */
+.task16 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task16 .bigger {
+  width: 100%;
+  height: 200px;
+}
+.task16 .ch16 {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+}
+.task16 .smaller {
+  width: 25%;
+  height: 100px;
+}
+.task16 .mid {
+  width: 25%;
+  height: 200px;
+}
+/* Task 17 */
+.task17 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task17 .bigger {
+  width: 50%;
+  height: 100%;
+}
+.task17 .ch17 {
+  width: 50%;
+  height: 100%;
+  display: flex;
+  /* flex-direction: column; */
+  flex-wrap: wrap;
+}
+.task17 .smaller {
+  width: 50%;
+  height: 25%;
+}
+.task17 .mid {
+  width: 100%;
+  height: 25%;
+}
+/* Task 18 */
+.task18 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.task18 .mid {
+  width: 200px;
+  height: 200px;
+}
+.task18 .bigger {
+  width: 200px;
+  height: 50%;
+}
+
+/* Task 19 */
+.task19 {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.task19 .bigger {
+  width: 400px;
+  height: 400px;
+}
+.task19 .smaller {
+  width: 100px;
+  height: 100px;
+}
+.task19 .mid {
+  width: 200px;
+  height: 200px;
+}
+.task19 .ch19-1 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 400px;
+  flex-direction: column;
+  height: 200px;
+}
+.task19 .ch19-2 {
+  display: flex;
+  flex-wrap: wrap;
+  width: 200px;
+  height: 100%;
+}
+/* Task 20 */
+
+.task20 {
+  display: flex;
+  flex-wrap: wrap;
+}
+.task20 .child {
+  width: 25%;
+}
